@@ -9,7 +9,7 @@ namespace Deliverable_one
             string response;
             do
             {
-                //input
+                // input
                 Console.WriteLine("How many people are we making PB & J sandwhiches for? ");
                 int eaters = int.Parse(Console.ReadLine());
 
@@ -43,6 +43,7 @@ namespace Deliverable_one
                 Console.WriteLine(JarsOfPbj + " jars of PBJ.");
                 Console.WriteLine(JarsOfJelly + " jars of jelly.");
 
+                // run it again?
                 Console.WriteLine("Would you like to restart? Enter yes or y to continue, or enter any other key to exit.");
                 response = Console.ReadLine();
             } while (response == "y" || response == "yes");
